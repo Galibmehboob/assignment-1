@@ -1,0 +1,216 @@
+/* Styles */
+
+
+* {
+    font-family: sans-serif;
+    max-width: 1521px;
+
+}
+
+
+/* Navbar style */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 160px 0 160px;
+}
+
+.nav-btn {
+    font-size: 18px;
+    font-weight: 600;
+    height: 52px;
+    width: 116px;
+    border-radius: 6px;
+    background: none;
+    border: 2px solid #006A50;
+}
+
+.nav-head {
+    position: relative;
+    top: -18px;
+}
+
+/* hero section style */
+.hero {
+    display: flex;
+    margin: 0 auto;
+    height: 560px;
+    width: 1280px;
+    background-color: #C6E4D6;
+    border-radius: 25px;
+}
+
+.hero-cont {
+    height: 320px;
+    width: 620px;
+    padding: 117px 60px;
+
+}
+
+.hero-cont>p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #7d7d7d;
+}
+
+.hero-cont h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.hero-cont .hero-btn {
+    height: 56px;
+    width: 270px;
+    background-color: #006A50;
+    border-radius: 8px;
+    color: azure;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-img {
+    padding-top: 80px;
+}
+
+/* First slide style */
+.second-page {
+
+    height: 320px;
+    /*  width: 1280px; */
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.second-page>h1 {
+    padding-left: 112px;
+}
+
+.pillur-part {
+    display: flex;
+    max-width: 1280px;
+    gap: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.pillur-part .card {
+    height: 244px;
+    width: 302px;
+    background-color: #ececec;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid #9a9797;
+
+}
+
+.pillur-part .card>p {
+    color: #939393;
+}
+
+/* Third slide style */
+.third-page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.third-first h1 {
+    font-size: 40px;
+}
+
+.third-first>p {
+    opacity: 0.7;
+}
+
+.third-second-card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+    gap: 24px;
+
+}
+
+.third-h4 {
+    font-size: 20px;
+}
+
+.third-card-all>p {
+    opacity: 0.5;
+}
+
+.third-card-all {
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 32px;
+    border-radius: 16px;
+    border: none;
+
+}
+
+.third-cards1 {
+    background-color: #dce9ff;
+}
+
+.third-cards2 {
+    background-color: #c0ffef;
+}
+
+.third-cards3 {
+    background-color: #ffedc5;
+}
+
+.third-card-all-btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+
+
+}
+
+.third-card-btn1 {
+    background-color: #5490F5;
+
+
+}
+
+.third-card-btn2 {
+
+    background-color: #09A15C;
+    margin-top: 20px;
+}
+
+.third-card-btn3 {
+    background-color: #FFC239;
+
+}
+
+
+
+.third-last {
+    border: 1px solid rgb(178, 177, 177);
+    border-radius: 16px;
+    padding: 0 24px 24px 24px;
+}
+
+.third-last>p {
+    opacity: 0.5;
+}
+
+.colon {
+    position: relative;
+    top: 50px;
+}
+
+.third-last-title {
+    font-size: 16px;
+    font-weight: 300;
+    color: #7d7d7d;
+    line-height: 1.5;
+}
