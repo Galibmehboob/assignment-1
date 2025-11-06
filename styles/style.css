@@ -7,6 +7,11 @@
 
 }
 
+/* class="text-opacity" */
+.text-opacity {
+    opacity: 0.6;
+}
+
 
 /* Navbar style */
 
@@ -258,10 +263,59 @@ td {
 }
 
 .table-btn-size {
-    width: 150px;
+    width: 0;
 }
 
 .table-data {
     font-size: 16px;
     font-weight: 600;
+}
+
+/* fifth-page style */
+.fifth-page {
+    width: 1280px;
+    /*   height: 1406px; */
+    margin: 0 auto;
+}
+
+.fifth-page h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.fifth-card1 {
+
+    display: flex;
+    padding: 48px;
+    gap: 32px;
+}
+
+.fifth-img-all {
+    border-radius: 40px;
+}
+
+.fifth-page h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.fifth-btn-all {
+    font-weight: 600;
+    color: white;
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+}
+
+.fifth-card2 {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+}
+
+.fifth-card3 {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
 }
